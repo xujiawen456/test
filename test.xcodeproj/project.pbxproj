@@ -15,6 +15,12 @@
 		415E6A1F1DC8692800270C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415E6A1D1DC8692800270C2F /* LaunchScreen.storyboard */; };
 		415E6A2A1DC8692800270C2F /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 415E6A291DC8692800270C2F /* testTests.m */; };
 		415E6A351DC8692800270C2F /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 415E6A341DC8692800270C2F /* testUITests.m */; };
+		F052B5AF1DDC25AF00DF7815 /* libYlwlBeaconManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F052B5AC1DDC25AF00DF7815 /* libYlwlBeaconManager.a */; };
+		F052B5BB1DDC28CF00DF7815 /* libUZEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F052B5BA1DDC28CF00DF7815 /* libUZEngine.a */; };
+		F052B5BE1DDC28DC00DF7815 /* ACBle.m in Sources */ = {isa = PBXBuildFile; fileRef = F052B5BD1DDC28DC00DF7815 /* ACBle.m */; };
+		F052B5C01DDC296D00DF7815 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F052B5BF1DDC296D00DF7815 /* libz.1.2.5.tbd */; };
+		F052B5C21DDC297800DF7815 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F052B5C11DDC297800DF7815 /* libicucore.tbd */; };
+		F073F1881DD023B400C60D91 /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F073F1871DD023B400C60D91 /* sample.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		415E6A301DC8692800270C2F /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		415E6A341DC8692800270C2F /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		415E6A361DC8692800270C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F052B5A41DDC026F00DF7815 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		F052B5AC1DDC25AF00DF7815 /* libYlwlBeaconManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libYlwlBeaconManager.a; path = YlwlBeaconManager_SDK/libYlwlBeaconManager.a; sourceTree = "<group>"; };
+		F052B5AD1DDC25AF00DF7815 /* YlwlBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YlwlBeacon.h; sourceTree = "<group>"; };
+		F052B5AE1DDC25AF00DF7815 /* YlwlBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YlwlBeaconManager.h; sourceTree = "<group>"; };
+		F052B5B51DDC276700DF7815 /* NSDictionaryUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSDictionaryUtils.h; path = ../NSDictionaryUtils.h; sourceTree = "<group>"; };
+		F052B5B61DDC276700DF7815 /* UZModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UZModule.h; path = ../UZModule.h; sourceTree = "<group>"; };
+		F052B5BA1DDC28CF00DF7815 /* libUZEngine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUZEngine.a; sourceTree = "<group>"; };
+		F052B5BC1DDC28DC00DF7815 /* ACBle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACBle.h; sourceTree = "<group>"; };
+		F052B5BD1DDC28DC00DF7815 /* ACBle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACBle.m; sourceTree = "<group>"; };
+		F052B5BF1DDC296D00DF7815 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		F052B5C11DDC297800DF7815 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		F073F1871DD023B400C60D91 /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sample.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F052B5C21DDC297800DF7815 /* libicucore.tbd in Frameworks */,
+				F052B5C01DDC296D00DF7815 /* libz.1.2.5.tbd in Frameworks */,
+				F052B5BB1DDC28CF00DF7815 /* libUZEngine.a in Frameworks */,
+				F052B5AF1DDC25AF00DF7815 /* libYlwlBeaconManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +107,7 @@
 				415E6A281DC8692800270C2F /* testTests */,
 				415E6A331DC8692800270C2F /* testUITests */,
 				415E6A0D1DC8692800270C2F /* Products */,
+				F052B5A31DDC026F00DF7815 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +124,10 @@
 		415E6A0E1DC8692800270C2F /* test */ = {
 			isa = PBXGroup;
 			children = (
+				F052B5AC1DDC25AF00DF7815 /* libYlwlBeaconManager.a */,
+				F052B5BA1DDC28CF00DF7815 /* libUZEngine.a */,
+				F052B5AB1DDC25AF00DF7815 /* YlwlBeaconManager_SDK */,
+				F073F1871DD023B400C60D91 /* sample.pdf */,
 				415E6A121DC8692800270C2F /* AppDelegate.h */,
 				415E6A131DC8692800270C2F /* AppDelegate.m */,
 				415E6A151DC8692800270C2F /* ViewController.h */,
@@ -138,6 +165,29 @@
 				415E6A361DC8692800270C2F /* Info.plist */,
 			);
 			path = testUITests;
+			sourceTree = "<group>";
+		};
+		F052B5A31DDC026F00DF7815 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F052B5C11DDC297800DF7815 /* libicucore.tbd */,
+				F052B5BF1DDC296D00DF7815 /* libz.1.2.5.tbd */,
+				F052B5A41DDC026F00DF7815 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F052B5AB1DDC25AF00DF7815 /* YlwlBeaconManager_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				F052B5B51DDC276700DF7815 /* NSDictionaryUtils.h */,
+				F052B5B61DDC276700DF7815 /* UZModule.h */,
+				F052B5BC1DDC28DC00DF7815 /* ACBle.h */,
+				F052B5BD1DDC28DC00DF7815 /* ACBle.m */,
+				F052B5AD1DDC25AF00DF7815 /* YlwlBeacon.h */,
+				F052B5AE1DDC25AF00DF7815 /* YlwlBeaconManager.h */,
+			);
+			path = YlwlBeaconManager_SDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +257,8 @@
 				TargetAttributes = {
 					415E6A0B1DC8692800270C2F = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 3WSQ8VB7HB;
+						ProvisioningStyle = Manual;
 					};
 					415E6A241DC8692800270C2F = {
 						CreatedOnToolsVersion = 8.1;
@@ -246,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F073F1881DD023B400C60D91 /* sample.pdf in Resources */,
 				415E6A1F1DC8692800270C2F /* LaunchScreen.storyboard in Resources */,
 				415E6A1C1DC8692800270C2F /* Assets.xcassets in Resources */,
 				415E6A1A1DC8692800270C2F /* Main.storyboard in Resources */,
@@ -274,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				415E6A171DC8692800270C2F /* ViewController.m in Sources */,
+				F052B5BE1DDC28DC00DF7815 /* ACBle.m in Sources */,
 				415E6A141DC8692800270C2F /* AppDelegate.m in Sources */,
 				415E6A111DC8692800270C2F /* main.m in Sources */,
 			);
@@ -424,10 +477,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3WSQ8VB7HB;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = czy.test;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/test/YlwlBeaconManager_SDK",
+					"$(PROJECT_DIR)/test",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ch.ectest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "85edaabd-c4ea-486c-bb9e-484e0e04f213";
+				PROVISIONING_PROFILE_SPECIFIER = "XC*";
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -435,10 +501,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3WSQ8VB7HB;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = czy.test;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/test/YlwlBeaconManager_SDK",
+					"$(PROJECT_DIR)/test",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ch.ectest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "85edaabd-c4ea-486c-bb9e-484e0e04f213";
+				PROVISIONING_PROFILE_SPECIFIER = "XC*";
+				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};
@@ -507,6 +586,7 @@
 				415E6A3B1DC8692800270C2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		415E6A3C1DC8692800270C2F /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +595,7 @@
 				415E6A3E1DC8692800270C2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		415E6A3F1DC8692800270C2F /* Build configuration list for PBXNativeTarget "testUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +604,7 @@
 				415E6A411DC8692800270C2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
