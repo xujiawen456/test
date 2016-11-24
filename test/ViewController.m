@@ -60,8 +60,8 @@ static NSString *const kServiceUUID = @"FDA50693-A4E2-4FB1-AFCF-C6EB07647825";
 }
 - (void)preView{
     
-    [_test initManager:nil];
-    [_test scan:nil];
+    //[_test initManager:nil];
+    //[_test scan:nil];
 //    NSURL * url = [NSURL fileURLWithPath:localPath];
 //    _dVC = [UIDocumentInteractionController interactionControllerWithURL:url];
 //    _dVC.delegate = self;
